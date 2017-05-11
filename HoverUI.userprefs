@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hover-UI-Kit-master/Unity/Assets/HoverDemos/Common/DemoAdjustInputSceneCamera.cs">
+    <Files>
+      <File FileName="Assets/Hover-UI-Kit-master/Unity/Assets/HoverDemos/Common/DemoAdjustInputSceneCamera.cs" Line="3" Column="40" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
