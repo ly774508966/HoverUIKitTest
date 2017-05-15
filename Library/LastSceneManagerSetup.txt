@@ -2,3 +2,6 @@ sceneSetups:
 - path: Assets/Hover-UI-Kit-master/Unity/Assets/Hover/InputModules/Vive/Scenes/HoverInputModule-Vive.unity
   isLoaded: 1
   isActive: 1
+- path: Assets/Hover-UI-Kit-master/Unity/Assets/HoverDemos/GifAnim/Scenes/GifAnim-Hovercast.unity
+  isLoaded: 1
+  isActive: 0
