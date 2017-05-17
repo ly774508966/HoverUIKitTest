@@ -243,6 +243,7 @@
      <Compile Include="Assets\Hover-UI-Kit-master\Unity\Assets\HoverDemos\KeyboardPixels\Scripts\DemoLetter.cs" />
      <Compile Include="Assets\Hover-UI-Kit-master\Unity\Assets\HoverDemos\KeyboardPixels\Scripts\DemoRing.cs" />
      <Compile Include="Assets\Hover-UI-Kit-master\Unity\Assets\HoverDemos\KeyboardPixels\Scripts\DemoTextPixels.cs" />
+     <Compile Include="Assets\HoverCastMultiRadio.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />

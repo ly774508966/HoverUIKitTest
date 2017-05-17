@@ -8,7 +8,7 @@ namespace Hover.Core.Items {
 	[ExecuteInEditMode]
 	public class HoverItemBuilder : MonoBehaviour {
 
-		public HoverItem.HoverItemType ItemType = HoverItem.HoverItemType.Selector;
+		public HoverItem.HoverItemType ItemType = HoverItem.HoverItemType.Radio;
 		public GameObject ButtonRendererPrefab;
 		public GameObject SliderRendererPrefab;
 
@@ -21,12 +21,12 @@ namespace Hover.Core.Items {
 		public void Awake() {
 			if ( ButtonRendererPrefab == null ) {
 				ButtonRendererPrefab = Resources.Load<GameObject>(
-					"Prefabs/HoverAlphaButtonRectRenderer-Default");
+					"Prefabs/HoverAlphaButtonArcRenderer-Default");
 			}
 
 			if ( SliderRendererPrefab == null ) {
 				SliderRendererPrefab = Resources.Load<GameObject>(
-					"Prefabs/HoverAlphaSliderRectRenderer-Default");
+					"Prefabs/HoverAlphaSliderArcRenderer-Default");
 			}
 		}
 
@@ -63,6 +63,8 @@ namespace Hover.Core.Items {
 
 			treeUp.Update(); //forces the entire item to update
 		}
+
+
 
 	}
 
