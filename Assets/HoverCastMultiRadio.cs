@@ -16,12 +16,41 @@ public class HoverCastMultiRadio : MonoBehaviour {
 
 	GameObject[] radioButtons;
 	string[] nameButtons;
+	string filepath;
+	string path;
+	string OS;
+
 
 	// Use this for initialization
 	void Start () {
 
+		OS = Environment.OSVersion.ToString ();
+		path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
 
-		string filepath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments) + "/Google Drive/Projects/";
+		if (OS.Contains ("Unix")) {
+
+			if (Directory.Exists(path + "/Documents/Projects/")) {
+
+				filepath = path + "/Documents/Projects/";
+
+			} else{
+
+				Directory.CreateDirectory (path + "/Documents/Projects");
+				filepath = path + "/Documents/Projects/";
+			}
+
+		} else {
+
+			if (Directory.Exists(path + "/Projects/")) {
+
+						filepath = path + "/Projects/";
+
+					} else{
+
+						Directory.CreateDirectory (path + "/Projects/");
+						filepath = path + "/Projects/";
+					}
+		}
 
 		string[] files = Directory.GetDirectories(@filepath);
 
@@ -43,10 +72,6 @@ public class HoverCastMultiRadio : MonoBehaviour {
 
 		}
 
-		for (int i = 0; i < files.Length; i++) {
-
-			Debug.Log (files[i]);
-		}
 	}
 	
 	// Update is called once per frame
