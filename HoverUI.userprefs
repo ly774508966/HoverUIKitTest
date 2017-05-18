@@ -1,8 +1,11 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hover-UI-Kit-master/Unity/Assets/HoverDemos/Common/DemoAdjustInputSceneCamera.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/HoverCastMultiRadio.cs">
     <Files>
+      <File FileName="Assets/HoverCastMultiRadio.cs" Line="44" Column="15" />
       <File FileName="Assets/Hover-UI-Kit-master/Unity/Assets/HoverDemos/Common/DemoAdjustInputSceneCamera.cs" Line="3" Column="39" />
+      <File FileName="Assets/Hover-UI-Kit-master/Unity/Assets/Hover/Core/Scripts/Items/Managers/HoverItemHighlightState.cs" Line="96" Column="1" />
+      <File FileName="Assets/Hover-UI-Kit-master/Unity/Assets/Hover/Core/Scripts/Items/HoverItemBuilder.cs" Line="29" Column="34" NotebookId="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
